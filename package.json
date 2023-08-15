@@ -1,0 +1,44 @@
+{
+  "name": "react-vite-js-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "preview": "vite build && vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "fmt:check": "prettier --check \"**/*.{js,jsx,mdx}\" --cache",
+    "fmt:write": "prettier --write \"**/*.{js,jsx,mdx}\" --cache"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "lucide-react": "^0.268.0",
+    "path": "^0.12.7",
+    "postcss": "^8.4.27",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "prettier": "^3.0.1",
+    "prettier-plugin-tailwindcss": "^0.5.2",
+    "vite": "^4.4.9",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-prettier": "^0.0.5"
+  }
+}
