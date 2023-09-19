@@ -11,6 +11,12 @@
 
 ### A Minimal React Starter Template with Vite, TailwindCSS, and JavaScript pre-configured with ESLint and Prettier
 
+<br>
+
+| **Template Preview** |
+| -------------------- |
+| ![mockup]            |
+
 </div>
 
 ## Features
@@ -88,6 +94,7 @@ _Note: It may take up to 24h for the [contrib.rocks][contrib-rocks] plugin to up
 </div>
 
 <!----------------------------------{ Labels }--------------------------------->
+
 [views]: https://komarev.com/ghpvc/?username=react-template-viteJs&label=view%20counter&color=red&style=flat
 [repo-size]: https://img.shields.io/github/repo-size/Khushal-ag/react-template-viteJs
 [issues]: https://img.shields.io/github/issues-raw/Khushal-ag/react-template-viteJs
@@ -97,3 +104,4 @@ _Note: It may take up to 24h for the [contrib.rocks][contrib-rocks] plugin to up
 [contributors]: https://contrib.rocks/image?repo=Khushal-ag/react-template-viteJs&max=500
 [contributors-graph]: https://github.com/Khushal-ag/react-template-viteJs/graphs/contributors
 [contrib-rocks]: https://contrib.rocks/preview?repo=Khushal-ag%2Freact-template-viteJs
+[mockup]: https://graph.org/file/357248403fa780a226ece.png
