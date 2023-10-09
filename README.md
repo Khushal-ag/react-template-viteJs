@@ -9,7 +9,7 @@
 
 # React Starter Template w/ ViteJs
 
-### A Minimal React Starter Template with Vite, TailwindCSS, and JavaScript pre-configured with ESLint and Prettier
+**A Minimal React Starter Template with Vite, TailwindCSS, and JavaScript pre-configured with ESLint and Prettier**
 
 <br>
 
