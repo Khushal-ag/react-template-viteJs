@@ -21,9 +21,9 @@
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
-    "@types/react": "^18.3.14",
+    "@types/react": "^18.3.16",
     "path": "^0.12.7",
-    "@types/react-dom": "^18.3.2",
+    "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
     "postcss": "^8.4.49",
     "eslint": "^8.57.1",
