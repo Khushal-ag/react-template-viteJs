@@ -37,6 +37,6 @@
     "eslint-plugin-tailwindcss": "^3.17.5",
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
-    "vite": "^5.4.11"
+    "vite": "^6.0.4"
   }
 }
