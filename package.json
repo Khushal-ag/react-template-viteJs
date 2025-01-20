@@ -14,18 +14,18 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
-    "lucide-react": "^0.471.0",
+    "lucide-react": "^0.473.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.28.1"
+    "react-router-dom": "^6.28.2"
   },
   "devDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
     "@types/react": "^18.3.18",
     "path": "^0.12.7",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
-    "postcss": "^8.4.49",
+    "postcss": "^8.5.1",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "tailwind-merge": "^2.6.0",
@@ -34,9 +34,9 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.18",
-    "eslint-plugin-tailwindcss": "^3.17.5",
+    "eslint-plugin-tailwindcss": "^3.18.0",
     "prettier": "^3.4.2",
-    "prettier-plugin-tailwindcss": "^0.6.9",
+    "prettier-plugin-tailwindcss": "^0.6.10",
     "vite": "^5.4.11"
   }
 }
