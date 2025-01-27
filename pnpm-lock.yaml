@@ -9,8 +9,8 @@ dependencies:
     specifier: ^10.4.20
     version: 10.4.20(postcss@8.5.1)
   lucide-react:
-    specifier: ^0.473.0
-    version: 0.473.0(react@18.3.1)
+    specifier: ^0.474.0
+    version: 0.474.0(react@18.3.1)
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -33,7 +33,7 @@ devDependencies:
     version: 18.3.5(@types/react@18.3.18)
   '@vitejs/plugin-react':
     specifier: ^4.3.4
-    version: 4.3.4(vite@5.4.11)
+    version: 4.3.4(vite@5.4.14)
   eslint:
     specifier: ^8.57.1
     version: 8.57.1
@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^3.4.2
     version: 3.4.2
   prettier-plugin-tailwindcss:
-    specifier: ^0.6.10
-    version: 0.6.10(@ianvs/prettier-plugin-sort-imports@4.4.1)(prettier@3.4.2)
+    specifier: ^0.6.11
+    version: 0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1)(prettier@3.4.2)
   tailwind-merge:
     specifier: ^2.6.0
     version: 2.6.0
@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^3.4.17
     version: 3.4.17
   vite:
-    specifier: ^5.4.11
-    version: 5.4.11
+    specifier: ^5.4.14
+    version: 5.4.14
 
 packages:
 
@@ -2402,7 +2402,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-react@4.3.4(vite@5.4.11):
+  /@vitejs/plugin-react@4.3.4(vite@5.4.14):
     resolution: {integrity: sha512-SCCPBJtYLdE8PX/7ZQAs1QAZ8Jqwih+0VBLum1EGqmCCQal+MIUqLCzj3ZUy8ufbC0cAM4LRlSTm7IQJwWT4ug==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2413,7 +2413,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.11
+      vite: 5.4.14
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4444,8 +4444,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-react@0.473.0(react@18.3.1):
-    resolution: {integrity: sha512-KW6u5AKeIjkvrxXZ6WuCu9zHE/gEYSXCay+Gre2ZoInD0Je/e3RBtP4OHpJVJ40nDklSvjVKjgH7VU8/e2dzRw==}
+  /lucide-react@0.474.0(react@18.3.1):
+    resolution: {integrity: sha512-CmghgHkh0OJNmxGKWc0qfPJCYHASPMVSyGY8fj3xgk4v84ItqDg64JNKFZn5hC6E0vHi6gxnbCgwhyVB09wQtA==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
     dependencies:
@@ -4824,8 +4824,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-tailwindcss@0.6.10(@ianvs/prettier-plugin-sort-imports@4.4.1)(prettier@3.4.2):
-    resolution: {integrity: sha512-ndj2WLDaMzACnr1gAYZiZZLs5ZdOeBYgOsbBmHj3nvW/6q8h8PymsXiEnKvj/9qgCCAoHyvLOisoQdIcsDvIgw==}
+  /prettier-plugin-tailwindcss@0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1)(prettier@3.4.2):
+    resolution: {integrity: sha512-YxaYSIvZPAqhrrEpRtonnrXdghZg1irNg4qrjboCXrpybLWVs55cW2N3juhspVJiO0JBvYJT8SYsJpc8OQSnsA==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -5689,8 +5689,8 @@ packages:
       inherits: 2.0.3
     dev: true
 
-  /vite@5.4.11:
-    resolution: {integrity: sha512-c7jFQRklXua0mTzneGW9QVyxFjUgwcihC4bXEtujIo2ouWCe1Ajt/amn2PCxYnhYfd5k09JX3SB7OYWFKYqj8Q==}
+  /vite@5.4.14:
+    resolution: {integrity: sha512-EK5cY7Q1D8JNhSaPKVK4pwBFvaTmZxEnoKXLG/U9gmdDcihQGNzFlgIvaxezFR4glP1LsuiedwMBqCXH3wZccA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
