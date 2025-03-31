@@ -9,8 +9,8 @@ dependencies:
     specifier: ^10.4.21
     version: 10.4.21(postcss@8.5.3)
   lucide-react:
-    specifier: ^0.483.0
-    version: 0.483.0(react@18.3.1)
+    specifier: ^0.485.0
+    version: 0.485.0(react@18.3.1)
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -26,14 +26,14 @@ devDependencies:
     specifier: ^4.4.1
     version: 4.4.1(prettier@3.5.3)
   '@types/react':
-    specifier: ^18.3.19
-    version: 18.3.19
+    specifier: ^18.3.20
+    version: 18.3.20
   '@types/react-dom':
     specifier: ^18.3.5
-    version: 18.3.5(@types/react@18.3.19)
+    version: 18.3.5(@types/react@18.3.20)
   '@vitejs/plugin-react':
     specifier: ^4.3.4
-    version: 4.3.4(vite@5.4.14)
+    version: 4.3.4(vite@5.4.15)
   eslint:
     specifier: ^8.57.1
     version: 8.57.1
@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^3.4.17
     version: 3.4.17
   vite:
-    specifier: ^5.4.14
-    version: 5.4.14
+    specifier: ^5.4.15
+    version: 5.4.15
 
 packages:
 
@@ -2236,16 +2236,16 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.3.5(@types/react@18.3.19):
+  /@types/react-dom@18.3.5(@types/react@18.3.20):
     resolution: {integrity: sha512-P4t6saawp+b/dFrUr2cvkVsfvPguwsxtH6dNIYRllMsefqFzkZk5UIjzyDOv5g1dXIPdG4Sp1yCR4Z6RCUsG/Q==}
     peerDependencies:
       '@types/react': ^18.0.0
     dependencies:
-      '@types/react': 18.3.19
+      '@types/react': 18.3.20
     dev: true
 
-  /@types/react@18.3.19:
-    resolution: {integrity: sha512-fcdJqaHOMDbiAwJnXv6XCzX0jDW77yI3tJqYh1Byn8EL5/S628WRx9b/y3DnNe55zTukUQKrfYxiZls2dHcUMw==}
+  /@types/react@18.3.20:
+    resolution: {integrity: sha512-IPaCZN7PShZK/3t6Q87pfTkRm6oLTd4vztyoj+cbHUF1g3FfVb2tFIL79uCRKEfv16AhqDMBywP2VW3KIZUvcg==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.2
@@ -2402,7 +2402,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-react@4.3.4(vite@5.4.14):
+  /@vitejs/plugin-react@4.3.4(vite@5.4.15):
     resolution: {integrity: sha512-SCCPBJtYLdE8PX/7ZQAs1QAZ8Jqwih+0VBLum1EGqmCCQal+MIUqLCzj3ZUy8ufbC0cAM4LRlSTm7IQJwWT4ug==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2413,7 +2413,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.14
+      vite: 5.4.15
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4442,8 +4442,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-react@0.483.0(react@18.3.1):
-    resolution: {integrity: sha512-WldsY17Qb/T3VZdMnVQ9C3DDIP7h1ViDTHVdVGnLZcvHNg30zH/MTQ04RTORjexoGmpsXroiQXZ4QyR0kBy0FA==}
+  /lucide-react@0.485.0(react@18.3.1):
+    resolution: {integrity: sha512-NvyQJ0LKyyCxL23nPKESlr/jmz8r7fJO1bkuptSNYSy0s8VVj4ojhX0YAgmE1e0ewfxUZjIlZpvH+otfTnla8Q==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
     dependencies:
@@ -5689,8 +5689,8 @@ packages:
       inherits: 2.0.3
     dev: true
 
-  /vite@5.4.14:
-    resolution: {integrity: sha512-EK5cY7Q1D8JNhSaPKVK4pwBFvaTmZxEnoKXLG/U9gmdDcihQGNzFlgIvaxezFR4glP1LsuiedwMBqCXH3wZccA==}
+  /vite@5.4.15:
+    resolution: {integrity: sha512-6ANcZRivqL/4WtwPGTKNaosuNJr5tWiftOC7liM7G9+rMb8+oeJeyzymDu4rTN93seySBmbjSfsS3Vzr19KNtA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
