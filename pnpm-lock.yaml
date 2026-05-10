@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^0.6.14
     version: 0.6.14(@ianvs/prettier-plugin-sort-imports@4.6.2)(prettier@3.6.2)
   tailwind-merge:
-    specifier: ^2.6.0
-    version: 2.6.0
+    specifier: ^3.6.0
+    version: 3.6.0
   tailwindcss:
     specifier: ^3.4.17
     version: 3.4.17
@@ -5142,8 +5142,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwind-merge@2.6.0:
-    resolution: {integrity: sha512-P+Vu1qXfzediirmHOC3xKGAYeZtPcV9g76X+xg2FD4tYgR71ewMA35Y3sCz3zhiN/dwefRpJX0yBcgwi1fXNQA==}
+  /tailwind-merge@3.6.0:
+    resolution: {integrity: sha512-uxL7qAVQriqRQPAyK3pj66VqskWqoZ37PW94jwOTwNfq/z9oyu1V+eqrZqtR2+fCiXdYOZe/Modt8GtvqNzu+w==}
     dev: true
 
   /tailwindcss@3.4.17:
